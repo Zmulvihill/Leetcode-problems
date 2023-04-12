@@ -9,4 +9,7 @@ var longestCommonPrefix = function(strs) {
     //if first letter matches move to next, then the next//
     //until it no longer matches, then return longest string//
     //if no string matches return ""//  
+    //1 <= strs.length <== 200//
+    //0 <= strs[i].length <= 200//
+    //strs[i] consists of only lowercase English letters//
   };
