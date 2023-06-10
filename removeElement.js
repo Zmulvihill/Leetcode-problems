@@ -1,16 +1,19 @@
 //https://leetcode.com/problems/remove-element/
 
-class Solution {
-    public int removeElement(int[] nums, int val) {
-        if (nums.length == 0) return 0;
+/**
+ * @param {number[]} nums
+ * @param {number} val
+ * @return {number}
+ */
+var removeElement = function(nums, val) {
 
-        int valid_size = 0;
-        for (int i=0; i<nums.length; i++) {
-            if (nums[i] != val) {
-                nums[valid_size] = nums[i];
-                valid_size++;
-            }
-        }
-        return valid_size;
-    }
-}
+    /*
+    1. Create index variable (starting at 0)
+    2. Loop through index
+        a. Condition if current value doesn't equal val
+            i. Set nums[index] to nums[i]
+            ii. Increment index
+    3. Return index
+    */
+    
+};
