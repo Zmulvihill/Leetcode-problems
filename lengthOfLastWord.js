@@ -30,4 +30,3 @@ var lengthOfLastWord = function(s) {
                 2. Else return lastWordCount
             ii. return lastWordCount
     */
-};
